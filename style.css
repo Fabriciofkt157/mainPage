@@ -4,4 +4,43 @@
 }
 body {
     font-family: "Anta", sans-serif;
+    font-size: 22px;
+    background-color: #100e27;
+    color:#9cbcf8;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+header {
+    color:#9cdef8; 
+    display: flex;
+    align-items: center;
+}
+#cab {
+    border: 2px solid #9cc1f8;
+    background-color: #282c3d;
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1;
+    margin-right: 20px;
+}
+#contact {
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+    border-radius: 2px solid #9cc1f8;
+    background-color: #282c3d;
+    height: 120%;
+    width: 8%;
+    background-color: #3684c4;
+    color:#4cedf3;
+    font-size:16px;
+    font-family: "Anta", sans-serif;
+    border: none;
+}
+main {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
 }
